@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		69389DB31C867A6000679D8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69389DB21C867A6000679D8F /* main.m */; };
 		69389DBB1C867A6D00679D8F /* NSPen.m in Sources */ = {isa = PBXBuildFile; fileRef = 69389DBA1C867A6D00679D8F /* NSPen.m */; };
+		694C55611C8682FE0082F24F /* NSFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 694C55601C8682FE0082F24F /* NSFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		69389DB21C867A6000679D8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69389DB91C867A6D00679D8F /* NSPen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPen.h; sourceTree = "<group>"; };
 		69389DBA1C867A6D00679D8F /* NSPen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPen.m; sourceTree = "<group>"; };
+		694C555F1C8682FE0082F24F /* NSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFile.h; sourceTree = "<group>"; };
+		694C55601C8682FE0082F24F /* NSFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				69389DB21C867A6000679D8F /* main.m */,
 				69389DB91C867A6D00679D8F /* NSPen.h */,
 				69389DBA1C867A6D00679D8F /* NSPen.m */,
+				694C555F1C8682FE0082F24F /* NSFile.h */,
+				694C55601C8682FE0082F24F /* NSFile.m */,
 			);
 			path = NSPen;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				694C55611C8682FE0082F24F /* NSFile.m in Sources */,
 				69389DBB1C867A6D00679D8F /* NSPen.m in Sources */,
 				69389DB31C867A6000679D8F /* main.m in Sources */,
 			);
@@ -241,6 +247,7 @@
 				69389DB81C867A6000679D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

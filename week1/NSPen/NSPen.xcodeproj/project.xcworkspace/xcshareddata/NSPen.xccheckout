@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D367500B-537D-49F8-A9F3-89F7E09B35A8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FA35574EEF43357774CBCC53F39EAB750F7C0C2C</key>
+		<string>https://github.com/kimhyewon/iOS_Basic.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>week1/NSPen/NSPen.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FA35574EEF43357774CBCC53F39EAB750F7C0C2C</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kimhyewon/iOS_Basic.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FA35574EEF43357774CBCC53F39EAB750F7C0C2C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FA35574EEF43357774CBCC53F39EAB750F7C0C2C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MISSION</string>
+		</dict>
+	</array>
+</dict>
+</plist>

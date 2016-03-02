@@ -8,16 +8,20 @@
 
 #import <Foundation/Foundation.h>
 #import "NSPen.h"
+#import "NSFile.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSPen* pen = [[NSPen alloc] initWithBrand:@"monami"];
-        [pen printDescription];
+//        NSPen* pen = [[NSPen alloc] initWithBrand:@"monami"];
+//        [pen printDescription];
+//        
+//        [pen setBrand:@"sharp"];
+//        [pen setColor:@"red"];
+//        [pen setUsage:50];
+//        [pen printDescription];
         
-        [pen setBrand:@"sharp"];
-        [pen setColor:@"red"];
-        [pen setUsage:50];
-        [pen printDescription];
+        NSFile *file = [[NSFile alloc] init];
+        [file NXDisplayAllFilesAtPath:@"/Users/gracelilac/Documents"];
 
     }
     return 0;
