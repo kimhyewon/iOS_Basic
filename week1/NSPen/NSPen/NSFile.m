@@ -13,10 +13,10 @@
 - (void) NXDisplayAllFilesAtPath:(NSString*)path
 {
     NSFileManager *fileManager = [NSFileManager defaultManager];
-    NSArray *data = [fileManager contentsOfDirectoryAtPath:path error:nil];
+    NSDirectoryEnumerator *dirEnum = [fileManager enumeratorAtPath:path];
     
-    for(int i=0; i<[data count]; i++) {
-        NSLog(@"%@", data[i]);
+    while (path = [dirEnum nextObject]) {
+        NSLog(@"%@",path);
     }
 }
 
