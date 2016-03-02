@@ -10,7 +10,7 @@
 
 @implementation NSFile
 
-- (void) NXDisplayAllFilesAtPath:(NSString*)path
++ (void) NXDisplayAllFilesAtPath:(NSString*)path
 {
     NSFileManager *fileManager = [NSFileManager defaultManager];
     NSDirectoryEnumerator *dirEnum = [fileManager enumeratorAtPath:path];
@@ -19,7 +19,7 @@
     }
 }
 
-- (void) NXDisplayAllFilesAtPath:(NSString*)path filterByExtension:(NSString*)extension
++ (void) NXDisplayAllFilesAtPath:(NSString*)path filterByExtension:(NSString*)extension
 {
     NSFileManager *fileManager = [NSFileManager defaultManager];
     NSDirectoryEnumerator *dirEnum = [fileManager enumeratorAtPath:path];

@@ -20,9 +20,9 @@ int main(int argc, const char * argv[]) {
 //        [pen setUsage:50];
 //        [pen printDescription];
         
-        NSFile *file = [[NSFile alloc] init];
+//        NSFile *file = [[NSFile alloc] init];
 //        [file NXDisplayAllFilesAtPath:@"/Users/gracelilac/Documents"];
-        [file NXDisplayAllFilesAtPath:@"/Users/gracelilac/Documents" filterByExtension:@"png"];
+        [NSFile NXDisplayAllFilesAtPath:@"/Users/gracelilac/Documents" filterByExtension:@"png"];
     }
     return 0;
 }

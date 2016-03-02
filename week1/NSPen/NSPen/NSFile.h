@@ -10,8 +10,8 @@
 
 @interface NSFile : NSObject
 
-- (void) NXDisplayAllFilesAtPath:(NSString*)path;
++ (void) NXDisplayAllFilesAtPath:(NSString*)path;
 
-- (void) NXDisplayAllFilesAtPath:(NSString*)path filterByExtension:(NSString*)extension;
++ (void) NXDisplayAllFilesAtPath:(NSString*)path filterByExtension:(NSString*)extension;
 
 @end
