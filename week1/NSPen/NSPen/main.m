@@ -21,8 +21,8 @@ int main(int argc, const char * argv[]) {
 //        [pen printDescription];
         
         NSFile *file = [[NSFile alloc] init];
-        [file NXDisplayAllFilesAtPath:@"/Users/gracelilac/Documents"];
-
+//        [file NXDisplayAllFilesAtPath:@"/Users/gracelilac/Documents"];
+        [file NXDisplayAllFilesAtPath:@"/Users/gracelilac/Documents" filterByExtension:@"png"];
     }
     return 0;
 }

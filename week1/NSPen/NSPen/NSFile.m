@@ -14,9 +14,19 @@
 {
     NSFileManager *fileManager = [NSFileManager defaultManager];
     NSDirectoryEnumerator *dirEnum = [fileManager enumeratorAtPath:path];
-    
     while (path = [dirEnum nextObject]) {
-        NSLog(@"%@",path);
+        NSLog(@"%@", path);
+    }
+}
+
+- (void) NXDisplayAllFilesAtPath:(NSString*)path filterByExtension:(NSString*)extension
+{
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSDirectoryEnumerator *dirEnum = [fileManager enumeratorAtPath:path];
+    while ((path = [dirEnum nextObject])) {
+        if ([[path pathExtension] isEqualToString: extension]) {
+            NSLog(@"%@", path);
+        }
     }
 }
 
